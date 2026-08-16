@@ -1,0 +1,21 @@
+{
+  "name": "codex-check",
+  "version": "0.1.0",
+  "description": "A tiny CLI that prints a pre-code checklist for Codex tasks.",
+  "type": "module",
+  "bin": {
+    "codex-check": "./bin/codex-check.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "codex",
+    "checklist",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
